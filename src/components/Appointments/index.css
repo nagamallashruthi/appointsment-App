@@ -1,0 +1,100 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-height: 800px;
+  max-width: 900px;
+  width: 40%;
+}
+.head {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #171f46;
+  margin-bottom: 30px;
+}
+.btn {
+  font-family: 'roboto';
+  font-size: 15px;
+  background-color: #8b5cf6;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  width: 100px;
+  color: white;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.img2 {
+  height: 300px;
+  width: 300px;
+}
+.line {
+  border: 2px solid #171f46;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+.app {
+  font-family: 'roboto';
+  font-size: 18px;
+  color: #171f46;
+  font-weight: bold;
+}
+.app-button {
+  background: transparent;
+  height: 30px;
+  border: 1px solid #9897f0;
+  color: #9897f0;
+  border-radius: 10px;
+}
+.result {
+  display: flex;
+  justify-content: space-between;
+}
+.app-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.d {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.t {
+  margin-bottom: 10px;
+  font-family: 'roboto';
+  font-size: 15px;
+  color: #171f46;
+  font-weight: bold;
+}
+.date {
+  height: 30px;
+  width: 170px;
+  color: #171f46;
+}
+.text {
+  height: 30px;
+  width: 200px;
+  padding: 4px;
+}
+.active {
+  background-color: #9897f0;
+  border: none;
+  color: white;
+  height: 30px;
+  width: 90px;
+  border-radius: 10px;
+}
